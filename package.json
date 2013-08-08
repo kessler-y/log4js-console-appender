@@ -1,0 +1,25 @@
+{
+  "name": "log4js-console-appender",
+  "version": "0.0.1",
+  "description": "custom console appenders for log4js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies"  : {
+    "log4js": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kessler-y/log4js-stream-appender.git"
+  },
+  "keywords": [
+    "log4js",
+    "appender"
+  ],
+  "author": "Yaniv Kessler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kessler-y/log4js-stream-appender/issues"
+  }
+}
