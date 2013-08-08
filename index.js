@@ -25,7 +25,7 @@ function configure(config) {
   if (config.layout) {
     layout = layouts.layout(config.layout.type, config.layout);
   }
-  return consoleAppender(layout. config.streamType);
+  return consoleAppender(layout, config.streamType);
 }
 
 exports.appender = consoleAppender;
